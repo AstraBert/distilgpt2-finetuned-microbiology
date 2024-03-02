@@ -7,6 +7,9 @@ Small model for language modeling based on Distil-GPT2 and on microbiology-relat
 ## Data preprocessing and extraction
 
 ```bash
+# UNZIP LARGE DATA FILES
+gzip -d data/*.gz
+
 # CONVERT .parquet FILE TO .jsonl
 python3 scripts/parquet_to_jsonl.py
 
