@@ -42,7 +42,7 @@ def write_jsonl_file(json_obj_list, output_jsonl):
 
 
 # Specify the path to your JSONL file
-jsonl_file_path = r"C:\Users\Daniele\Desktop\Rdevcont\biology_textgen\biology.jsonl"
-outjson = r"C:\Users\Daniele\Desktop\Rdevcont\biology_textgen\microbiology.jsonl"
+jsonl_file_path = "data/biology.jsonl"
+outjson = "data/microbiology.jsonl"
 l = parse_jsonl(jsonl_file_path, field="topic", filt="Microbiology")
 write_jsonl_file(l, outjson)
