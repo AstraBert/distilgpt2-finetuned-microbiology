@@ -15,6 +15,9 @@ python3 scripts/parquet_to_jsonl.py
 
 # FILTER MICROBIOLOGY TEXTS FROM microbiology.jsonl
 python3 scripts/data_preprocess.py
+
+# GENERATE THE MODEL
+python3 scripts/build_distilgpt2-finetuned-microbiology.py
 ```
 
 ## References
