@@ -66,7 +66,7 @@ def parse_jsonl(jsonl_file_path, **kwargs):
         return list_of_dicts
 
 
-data = parse_jsonl("microbiology.jsonl", retain_value="message_2", key_for_value="text")
+data = parse_jsonl("data/microbiology.jsonl", retain_value="message_2", key_for_value="text")
 data[0]
 
 model_checkpoint = "distilgpt2"
